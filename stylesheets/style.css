@@ -46,6 +46,18 @@ p {
   font-size: 18px;
 }
 
+#popupbox{
+  display:flex;
+  width:auto
+}
+
+#description{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e4e74;
+}
+
 .stateTag{
   color: #e5e7e9;
 }
