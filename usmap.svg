@@ -304,7 +304,7 @@
 		</g></a>
 	</g>
 
-	<g id="popupbox" transform="translate(5 5)" display="none">
+	<g id="popupbox" display="none">
 		<rect x="0" y="0" fill="#22435e" stroke="#fff" stroke-width="1" />
 		<text id="popupboxtitle" font-weight="bold" stroke="none" stroke-width="0" text-anchor="start" x="5" y="20" fill="#fff">State</text>
 		<text id="popupboxvaluetext" stroke="none" stroke-width="0" text-anchor="start" x="5" y="40">
