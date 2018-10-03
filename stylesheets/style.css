@@ -1,0 +1,233 @@
+body {
+  font-family: Helvetica;
+  color: #e5e7e9;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: #154360;
+  margin:20px
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navLink {
+  color: #1a5276;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+.navLink:hover {
+  color: #2e4e74;
+  text-decoration: underline;
+  text-decoration-color: #b3b6b7;
+  text-align: left;
+}
+
+.headerLogo {
+  padding: 30px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  background-color: #154360;
+  margin: 10px 20px;
+  justify-content: space-between;
+}
+
+.trialText {
+  color: #e5e7e9;
+}
+
+.startFreeTrial {
+  background-color: #c33539;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+}
+
+.startFreeTrial:hover {
+  background-color: #2e4e74;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.content {
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+
+.sectionHeader {
+  text-align: center;
+  padding: 30px 10px;
+  color: #2e4e74;
+}
+
+.subSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.description {
+  padding: 10px;
+  background-color: #c33539;
+  margin: 5px;
+}
+
+.description1 {
+  padding: 10px;
+  background-color: #2e4e74;
+  margin: 5px;
+}
+
+.widgets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+  margin: 15px;
+}
+
+.list {
+  padding: 15px;
+}
+
+.map {
+  padding: 30px 10px;
+  color: #2e4e74;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.howTo {
+  background-color: #154360;
+  padding: 20px;
+  margin: 10px 20px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.startFreeTrialEnd {
+  background-color: #c33539;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 15px;
+}
+
+.startFreeTrialEnd:hover {
+  background-color: #2e4e74;
+}
+
+.landingPages {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.landingPageLink {
+  background-color: #c33539;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  border: 2px solid #932c34;
+  border-radius: 10px;
+}
+
+.landingPageLink:hover {
+  background-color: #932c34;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  border: 2px solid #c33539;
+  border-radius: 10px;
+}
+
+.map{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerImage {
+  height: 70px;
+  width: 70px;
+  padding-left: 30px;
+}
+
+.socialImage {
+  width: 60px;
+  padding-left: 30px;
+}
