@@ -96,6 +96,7 @@ p {
 
 .trialText {
   color: #e5e7e9;
+  font-size: 1.5rem
 }
 
 .startFreeTrial {
@@ -104,8 +105,10 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
-  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  padding: 5px;
 }
 
 .startFreeTrial:hover {
@@ -115,9 +118,11 @@ p {
 .title {
   display: flex;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 10px;
   margin-left: 40px;
   text-align: center;
+  font-size: 2.3rem;
+  line-height: normal;
 }
 
 .content {
